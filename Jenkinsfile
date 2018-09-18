@@ -13,6 +13,7 @@ pipeline {
                 sh "docker login -u ${env.dockerHubUser} -p ${env.dockerHubPassword}"
 
                 sh 'docker push leoncaiau912/jenkins-alpine:lts'
+                }
             }
         }
     }
