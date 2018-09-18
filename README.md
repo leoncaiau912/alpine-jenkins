@@ -13,3 +13,7 @@ This is a fully functional Jenkins server which runs in an alpine linux that is 
 To allow Jenkins to utilize your host Docker installation for spinning up containers in builds and building images, mount the Docker socket as a volume.
 
 `docker run -p 8080:8080 -v /var/run/docker.sock:/var/run/docker.sock leoncaiau912/alpine-jenkins`
+
+
+##Docker Hub account
+ID should be dockerHub as same as in the jenkins file
